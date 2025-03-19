@@ -8,11 +8,15 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "rich (>=13.9.4,<14.0.0)"
 ]
 
 [tool.poetry]
 packages = [{include = "pyportscanner", from = "src"}]
+package-mode = false
 
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

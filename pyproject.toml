@@ -1,7 +1,7 @@
 [project]
-name = "pyportscanner"
+name = "pyportsscanner"
 version = "0.1.0"
-description = ""
+description = "simple port scanner implemented in Python using the `socket` library and the `rich` library for enhanced output. It allows you to check if specific ports are open on a given host."
 authors = [
     {name = "Yoru-cyber",email = "carlosmendez170210@gmail.com"}
 ]
@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "pyportscanner", from = "src"}]
+packages = [{include = "pyportsscanner", from = "src"}]
 package-mode = false
 
 [tool.poetry.group.dev.dependencies]
